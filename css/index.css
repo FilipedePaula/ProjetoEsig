@@ -19,10 +19,6 @@ body {
   height: 40px;
 }
 
-.side-menu {
-  float: left;
-}
-
 .statistic-cards {
   float: right;
 }
@@ -36,11 +32,11 @@ body {
 }
 
 .chart-inline {
-  width: 570px;
+  width: 65%;
 }
 
 .chart-doughnut {
-  width: 275px;
+  width: 30%;
 }
 
 @media(min-width: 769px) {
