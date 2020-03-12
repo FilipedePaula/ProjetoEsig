@@ -1,4 +1,4 @@
-$('.navbar-toggler').click(function (e) {
+$('#nav-button').click(function (e) {
   e.preventDefault();
-  $('#sidebar-wrapper').toggleClass('toggled');
+  $("#sidebar-wrapper").fadeToggle('slow');
 });

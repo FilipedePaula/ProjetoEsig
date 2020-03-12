@@ -1,31 +1,72 @@
+/* Geral */
+/*----------------------------------------*/
 html,
 body {
   width: 100%;
   height: 100%;
 }
 
+/* Navbar */
+/*----------------------------------------*/
+
+a:hover {
+  text-decoration: none;
+}
+
+.account-photo {
+  width: 60px;
+  height: 50px;
+}
+
+/* Sidebar */
+/*----------------------------------------*/
+
 .sidebar-toggle {
   height: 100vh;
-  width: 22%;
-  border: none;
+}
+
+#sidebar-wrapper {
+  float: left;
 }
 
 .list-group-item {
   border: none;
 }
 
-.account-photo {
-  width: 50px;
-  height: 40px;
+@media (min-width: 769px) {
+  .sidebar-toggle {
+    width: 70px;
+  }
 }
 
-.statistic-cards {
-  float: right;
-}
+/* main-page */
+/*----------------------------------------*/
 
 .full-body {
   height: 100vh;
 }
+
+/* Statistic Cards */
+/*----------------------------------------*/
+
+.statistic-cards-element {
+  width: 30%;
+}
+
+.logo-html5 {
+  color: rgba(255, 0, 0, .8);
+}
+
+.logo-css3 {
+  color: rgba(70, 6, 248, .9);
+}
+
+.logo-js {
+  color: rgb(194, 191, 11);
+}
+
+/* Charts */
+/*----------------------------------------*/
 
 .card-chart {
   height: 320px;
@@ -38,31 +79,3 @@ body {
 .chart-doughnut {
   width: 30%;
 }
-
-@media(min-width: 769px) {
-  .sidebar-toggle {
-    width: 85px;
-  }
-
-  .statistic-cards-element {
-    width: 30%;
-  }
-}
-
-/* @media(min-width: 1024px) {
-  .sidebar-toggle {
-    width: 8vw;
-  }
-}
-
-@media(min-width: 1440px) {
-  .sidebar-toggle {
-    width: 4vw;
-  }
-}
-
-@media(min-width: 1920px) {
-  .sidebar-toggle {
-    width: 4vw;
-  }
-} */
