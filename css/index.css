@@ -9,11 +9,11 @@ body {
 /* Navbar */
 /*----------------------------------------*/
 
-a:hover {
+.header__link-filipe--no-underline:hover {
   text-decoration: none;
 }
 
-.account-photo {
+.header__account-photo--pattern {
   width: 60px;
   height: 50px;
 }
@@ -21,63 +21,53 @@ a:hover {
 /* Sidebar */
 /*----------------------------------------*/
 
-.sidebar-toggle {
+.sidebar--pattern {
   height: 100vh;
-}
-
-#sidebar-wrapper {
   float: left;
 }
 
-.list-group-item {
+.sidebar__list-group {
   border: none;
 }
-
-@media (min-width: 769px) {
-  .sidebar-toggle {
-    width: 70px;
-  }
-}
-
 
 /* main-page */
 /*----------------------------------------*/
 
-.full-body {
-  height: 100vh;
+.main--pattern {
+  min-height: 100vh;
 }
 
 
 /* Statistic Cards */
 /*----------------------------------------*/
 
-.statistic-cards-element {
+.statistic-section__card--pattern {
   width: 30%;
 }
 
-.logo-html5 {
+.statistic-section__logo-html5--color-red {
   color: rgba(255, 0, 0, .8);
 }
 
-.logo-css3 {
+.statistic-section__logo-css3--color-blue {
   color: rgba(70, 6, 248, .9);
 }
 
-.logo-js {
+.statistic-section__logo-jss--color-yellow {
   color: rgb(194, 191, 11);
 }
 
 /* Charts */
 /*----------------------------------------*/
 
-.card-chart {
+.charts-section__card--height {
   height: 320px;
 }
 
-.chart-inline {
+#charts-section__sales-performance-chart--width {
   width: 65%;
 }
 
-.chart-doughnut {
+#charts-section__top-categories-chart--width {
   width: 30%;
 }
