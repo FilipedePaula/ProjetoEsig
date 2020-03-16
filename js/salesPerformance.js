@@ -7,10 +7,10 @@ var lineChart = new Chart(chartSales, {
         label: "HTML",
         data: [28, 40, 32, 38, 24],
         backgroundColor: [
-          'rgba(209, 35, 35, 1)',
+          'rgba(255, 0, 0, .8)',
         ],
         borderColor: [
-          'rgba(179, 177, 177, 0.31)',
+          'rgba(33, 37, 41, .5)',
         ],
         borderWidth: 1
       },
@@ -21,7 +21,7 @@ var lineChart = new Chart(chartSales, {
           'rgba(45, 76, 235, 1)',
         ],
         borderColor: [
-          'rgba(153, 153, 153, 0.86)',
+          'rgba(33, 37, 41, .5)',
         ],
         borderWidth: 1
       },
@@ -29,10 +29,10 @@ var lineChart = new Chart(chartSales, {
         label: "JavaScript",
         data: [80, 65, 78, 61, 71],
         backgroundColor: [
-          'rgba(238, 241, 59, 0.86)',
+          'rgba(194, 191, 11, 1)',
         ],
         borderColor: [
-          'rgba(58, 58, 58, 0.86)',
+          'rgba(33, 37, 41, .5)',
         ],
         borderWidth: 1
       }

@@ -9,6 +9,10 @@ body {
 /* Navbar */
 /*----------------------------------------*/
 
+.header--pattern {
+  height: 74px;
+}
+
 .header__link-filipe--no-underline:hover {
   text-decoration: none;
 }
@@ -22,7 +26,7 @@ body {
 /*----------------------------------------*/
 
 .sidebar--pattern {
-  height: 100vh;
+  height: 100%;
   float: left;
 }
 
@@ -34,9 +38,8 @@ body {
 /*----------------------------------------*/
 
 .main--pattern {
-  min-height: 100vh;
+  height: 900px;
 }
-
 
 /* Statistic Cards */
 /*----------------------------------------*/
@@ -50,11 +53,11 @@ body {
 }
 
 .statistic-section__logo-css3--color-blue {
-  color: rgba(70, 6, 248, .9);
+  color: rgba(45, 76, 235, 1);
 }
 
 .statistic-section__logo-jss--color-yellow {
-  color: rgb(194, 191, 11);
+  color: rgb(194, 191, 11, 1);
 }
 
 /* Charts */
@@ -70,4 +73,21 @@ body {
 
 #charts-section__top-categories-chart--width {
   width: 30%;
+}
+
+/* Table */
+/*----------------------------------------*/
+
+.table-client-section--pattern__tbody--pattern td {
+  padding: .5em;
+}
+
+@media(max-width: 992px) {
+  .table-client-section--pattern__tbody--pattern {
+    font-size: .8rem;
+  }
+
+  .table-client-section--pattern__tbody--pattern button {
+    display: none;
+  }
 }
